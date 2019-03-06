@@ -1,0 +1,10 @@
+body {
+    background-color: lightgray;
+    margin-top: 95px; 
+    font-family: 'Trebuchet MS'
+}
+
+#comingSoon{
+    text-align: center;
+    font-size: 25px;
+}
