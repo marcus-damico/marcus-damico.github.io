@@ -1,10 +1,121 @@
+/* this is for the index.html */
+
 body {
-    background-color: lightgray;
-    margin-top: 95px; 
-    font-family: 'Trebuchet MS'
+    background-color: #cecece;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0px;
 }
 
-#comingSoon{
+#menuTable{
+    height: 45px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.menuItem{
+    font-size: 17px;
     text-align: center;
-    font-size: 25px;
+    width: 140px;
+}
+
+.menuItem:hover{
+    background-color: rgba(183, 71, 71, .5);
+    cursor: pointer;
+}
+
+#classProjectsMenuItem{
+    text-decoration: none;
+}
+
+#classProjectsMenuItem:visited{
+    color:black;
+}
+
+#resumeMenuItem{
+    
+}
+
+#titleSubTitle{
+    margin-left: 25%;
+    margin-top: 200px;
+    width: 550px;
+    height: 350px;
+}
+
+#nameHeader{
+    font-size: 40px;
+}
+
+#section1{
+    background-color: #4c4c4c;
+    height: 400px;
+    color: white;
+}
+
+#projectsList{
+    margin-left: 8%;
+    padding-top: 20px;
+}
+
+#projectsListLink{
+    color:white;
+    text-decoration: none;
+}
+
+#projectsListLink:visited{
+    color:white;
+}
+
+#ideaList{
+    margin-left: 8%;
+    padding-top: 20px;
+
+}
+
+#listHeader{
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.listElement{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#bottomContact{
+    height: 75px;
+    background-color: rgba(183, 71, 71);
+}
+
+#contactTable{
+    padding-top: 16px;
+}
+
+.contactColumn{
+    width: 40px;
+}
+
+.contactImage{
+    width: 90%;
+}
+
+/* this is for the project.html */
+
+.ProjectSection{
+    margin-top: 25px;
+    margin-left: 8%;
+    width: 100%;
+}
+
+#projectTitle{
+    margin-left: 5%;
+}
+
+.buttons{
+    font-size: 14px;
+    width: 100px;
+    margin-right: 10px;
+    height: 25px;
 }

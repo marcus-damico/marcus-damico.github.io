@@ -3,11 +3,76 @@
         <title>Marcus D'Amico</title>
         <link rel="stylesheet" href="styles.css">
         <script src="javaScript.js"></script>
+        <script src="bubbleSort.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
     <body>
-        <p id="comingSoon">
-            marcusdamico.com <br><br>
-            Coming Soon
-        </p>
+        <table id="menuTable">
+            <tr id="menuRow">
+                <td class="menuItem">
+                    <a href="projects.html" id="classProjectsMenuItem" target="_blank">Projects</a>
+                </td>
+                <td class="menuItem" id="resumeMenuItem" onclick="showResume()"> 
+                    Resume
+                </td>
+                <td class="menuItem" onclick="scrollToBottom()">
+                    Contact Me
+                </td>
+            </tr>
+        </table>
+        <div id="titleSubTitle">
+            <h1 id="nameHeader">
+                Marcus D'Amico
+            </h1>
+            <h3>
+                The goal of this website is to improve my webdesign and other programming skills.
+                My resume, other projects, and ways to reach me are available through the links above and below.
+            </h3>
+        </div>
+        <div id="section1">
+            <div>
+                <ul id="projectsList">
+                    <li id="listHeader"><h3> <a href="projects.html" id="projectsListLink">Completed Projects</a></h3></li>
+                    <ul>
+                        <li class="listElement">New Website</li>
+                        <li class="listElement">Bubble Sort Algorithm</li>
+                    </ul>
+                </ul>
+            </div>
+            <div>
+                <ul id="ideaList">
+                    <li id="listHeader"><h3>Ideas to try:</h3></li>
+                    <ul>
+                        <li class="listElement">Experiment With AWS</li>
+                        <li class="listElement">Make make database in AWS that this website connects to</li>
+                        <li class="listElement">Add APIs to the website</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div id="bottomContact">
+            <table id="contactTable" align="center">
+                <tr>
+                    <td class="contactColumn">
+                        <a href="https://twitter.com/Marcus_DAmico" target="_blank"><img class="contactImage" src="Icons/twitter.png"></a>
+                    </td>
+                    <td class="contactColumn">
+                        <a href="https://www.facebook.com/marcus.damico.3" target="_blank"><img class="contactImage" src="Icons/facebook.png"></a>
+                    </td>
+                    <td class="contactColumn">
+                        <a href="https://www.linkedin.com/in/marcus-damico/" target="_blank"><img class="contactImage" src="Icons/linkedin.png"></a>
+                    </td>
+                    <td class="contactColumn">
+                        <a href="https://github.com/marcus-damico" target="_blank"><img class="contactImage" src="Icons/github.png"></a>
+                    </td>
+                    <td class="contactColumn">
+                        <a href="https://www.snapchat.com/add/checkmarc" target="_blank"><img class="contactImage" src="Icons/snapchat.png"></a>
+                    </td>
+                    <td class="contactColumn">
+                        <a href="mailto:mdmdamico@gmail.com" target="_top"><img class="contactImage" src="Icons/email.png"></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
