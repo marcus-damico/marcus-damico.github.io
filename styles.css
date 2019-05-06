@@ -98,6 +98,10 @@ body {
     width: 90%;
 }
 
+.contactImage:hover{
+    width: 90%;
+    filter: invert(20%);
+}
 /* this is for the projects.html */
 
 .ProjectSection{
