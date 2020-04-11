@@ -36,7 +36,7 @@ function drawSquares(numbers){
         ctx.fillStyle = "#a50000";
         ctx.fillRect(0 + offset,300,canvas.width/50,-numbers[i]*5);
         i++;
-        offset = offset + ((canvas.width/50)+2);
+        offset = offset + ((canvas.width/50)+(canvas.width*.005));
     }
 }
 

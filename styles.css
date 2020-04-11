@@ -1,4 +1,4 @@
-/* this is for the index.html */
+/* this is for index.html */
 
 body {
     background-color: #cecece;
@@ -20,12 +20,13 @@ body {
 }
 
 .menuItem:hover{
-    background-color: rgba(183, 71, 71, .5);
+    background-color: rgba(183, 71, 71, .65);
     cursor: pointer;
 }
 
 #classProjectsMenuItem{
     text-decoration: none;
+    color: black;
 }
 
 #classProjectsMenuItem:visited{
@@ -35,7 +36,7 @@ body {
 
 #titleSubTitle{
     margin-left: 25%;
-    margin-top: 200px;
+    margin-top: 150px;
     width: 550px;
     height: 350px;
 }
@@ -46,7 +47,7 @@ body {
 
 #section1{
     background-color: #4c4c4c;
-    height: 400px;
+    height: 300px;
     color: white;
 }
 
@@ -66,7 +67,7 @@ body {
 
 #ideaList{
     margin-left: 8%;
-    padding-top: 20px;
+    padding-top: 45px;
 
 }
 

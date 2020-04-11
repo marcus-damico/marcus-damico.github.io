@@ -9,3 +9,7 @@ function showResume(){
 function scrollToBottom(){
     window.scrollTo(0, document.body.scrollHeight);
 }
+
+function goToProjects(){
+    window.location.href = "projects.html"
+}
